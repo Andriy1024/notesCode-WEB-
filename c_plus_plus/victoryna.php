@@ -61,4 +61,5 @@
                 <input type="radio" name="question" value="3">protected.<br>
             </form>
             <button id="ok">OK</button>
+            <script type="text/javascript" src="../js/fortest.js" defer></script>
         
