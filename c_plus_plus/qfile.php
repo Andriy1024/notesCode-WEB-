@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>QFile </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>QFile і файли. Читання і запис рядків у файл.</h1></center>
         <br>
         <p>На сьогоднішній день переважна більшість комп'ютерних програм працюють з файлами, а тому важливо вміти користуватися функціями або класами, які дозволяють відкривати і закривати, записувати і зчитувати інформацію з файлів. У цій статті я трохи розповім про файлах і про клас QFile, а також покажу приклад використання цього класу.</p>
@@ -165,17 +145,4 @@
         <p>Text, text, text.Text, text, text.Text, text, text.</p>
         <p>Отже, ми розглянули основні методи для роботи з файлами. Більш детальну інформацію про всі методи класу QFile і QIODevice можна знайти в офіційній документації Qt і в мережі.</p>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-                <script>
-                    var url = location.href;
-                    var comm = document.getElementsByClassName('fb-comments')[0];
-                    comm.setAttribute('data-href',url);
-                </script>
-            </div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+       

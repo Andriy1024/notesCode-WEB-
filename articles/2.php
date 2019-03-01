@@ -12,7 +12,7 @@
 	<meta charset="utf-8">
 </head>
 <body>
-<?php require "top.php";?>
+<?php require "../index/top.php";?>
 <main>
 	<div class="information">
 		<h1>8 принципів планування розробки, що спрощують життя</h1>

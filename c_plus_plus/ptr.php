@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Вказівники</h1></center>
         <br>
         <p>Вказівник - змінна, значенням якої є адреса комірки пам'яті. Тобто покажчик посилається на блок даних з області пам'яті, причому на саме його початок. Покажчик може посилатися на змінну або функцію. Для цього потрібно знати адресу змінної або функції. Так ось, щоб дізнатися адресу конкретної змінної в С++ існує унарна операція взяття адреси &. Така операція витягує адреса оголошених змінних, для того, щоб його привласнити покажчику.</p>
@@ -130,17 +110,4 @@
         // const не дає міняти передаваємий аргумент всередині функциї
         </code></pre>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-<div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-<script>
-var url = location.href;
-var comm = document.getElementsByClassName('fb-comments')[0];
-comm.setAttribute('data-href',url);
-</script>
-</div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+       

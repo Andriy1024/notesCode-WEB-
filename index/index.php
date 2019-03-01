@@ -94,6 +94,7 @@
 				  <p>MySQL</p>
 				  <p>Email: andriyzybyk@gmail.com</p>	
 				  <p>Сторінка у   <a target="_blank" href="https://www.facebook.com/zubykandriy">facebook</a></p>
+				  <a class="github-button" href="https://github.com/Andriy1024" aria-label="Follow @Andriy1024 on GitHub">Follow @Andriy1024</a>
 			 </div>
 			 
 		 </div>
@@ -102,6 +103,7 @@
       		<div class="fb-comments" data-href="http://notescode.zzz.com.ua"   data-width="100%" data-numposts="5"></div>
 	  </div>
 </main>
-	<?php require "bottom.php";?>	
+	<?php require "bottom.php";?>
+<script async defer src="https://buttons.github.io/buttons.js"></script> 	
 </body>
 </html>

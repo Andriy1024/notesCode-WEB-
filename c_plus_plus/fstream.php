@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Робота з файлами в С++</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Робота з файлами в С++</h1></center>
         <br>
         <p>Більшість комп'ютерних програм працюють з файлами, і тому виникає необхідність створювати, видаляти, записувати читати, відкривати файли. Що ж таке файл? Файл - іменований набір байтів, який може бути збережений на деякому накопичувачі. Ну, тепер зрозуміло, що під файлом розуміється деяка послідовність байтів, яка має своє, унікальне ім'я, наприклад файл.txt. В одній директорії не можуть знаходитися файли з однаковими іменами. Під ім'ям файлу розуміється не тільки його назву, а й розширення, наприклад: file.txt і file.dat – різні файли, хоч і мають однакові назви. Існує таке поняття, як повне ім'я файлів - це повна адреса до директорії файлу із зазначенням імені файлу, наприклад: D:\docs\file.txt. Важливо розуміти ці базові поняття, інакше складно буде працювати з файлами.</p>
@@ -108,17 +88,4 @@
 
         fout.open("cppstudio.txt", ios_base::app); // відкриваємо файл для додавання інформації до кінця файлу</code></pre>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-<div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-<script>
-var url = location.href;
-var comm = document.getElementsByClassName('fb-comments')[0];
-comm.setAttribute('data-href',url);
-</script>
-</div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+       

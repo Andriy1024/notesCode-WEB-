@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>virtual</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>virtual в С++</h1></center>
         <br>
         <p>Поліморфізм часу виконання забезпечується за рахунок використання похідних класів і віртуальних функцій. Віртуальна функція - це функція, оголошена з ключовим словом virtual в базовому класі і перевизначена в одному або в декількох похідних класах. Віртуальні функції є особливими функціями, тому що при виклику об'єкта похідного класу за допомогою покажчика або посилання на нього С ++ визначає під час виконання програми, яку функцію викликати, грунтуючись на типі об'єкта. Для різних об'єктів викликаються різні версії однієї і тієї ж віртуальної функції. Клас, що містить одну або більше віртуальних функцій, називається поліморфним класом (polymorphic class).</p>
@@ -174,17 +154,4 @@
         <p>Якщо в похідному класі віртуальна функція не переважають, то тоді використовується її версія з базового класу.</p>
         <p>Треба мати на увазі, що характеристики успадкування носять ієрархічний характер. Щоб проілюструвати це, припустимо, що в попередньому прикладі клас second_d породжений від класу first_d замість класу Base. Коли функцію who () викликають, використовуючи покажчик на об'єкт типу second_d (в якому функція who () не визначалась), то буде викликана версія функції who (), оголошена в класі first_d, оскільки цей клас - найближчий до класу second_d. У загальному випадку, коли клас не переважають віртуальну функцію, С ++ використовує перше з визначень, яке він знаходить, йдучи від нащадків до предків.</p>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-            <script>
-                var url = location.href;
-                var comm = document.getElementsByClassName('fb-comments')[0];
-                comm.setAttribute('data-href',url);
-            </script>
-            </div> 
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+        

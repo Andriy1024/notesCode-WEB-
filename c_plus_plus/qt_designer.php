@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Qt Designer</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../style/reset.css">
-	<link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-	<script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-	<link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-	<meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Знайомство з Qt Designer</h1></center>
         <br>
         <p>Qt Designer - кроссплатформенная вільне середовище для розробки графічних інтерфейсів (GUI) програм використовують бібліотеку Qt. Входить до складу Qt framework [1].</p><br>
@@ -39,17 +19,4 @@
         <h2>Концепція компонування в Qt</h2>
         <p>Макет використовується для упорядкування та керування елементами, які складають інтерфейс користувача. Qt надає ряд класів для автоматичної обробки макета - QHBoxLayout, QVBoxLayout, QGridLayout і QFormLayout. Ці класи вирішують завдання викладання віджетів автоматично, забезпечуючи користувальницький інтерфейс, який веде себе передбачувано. На щастя, знання класів макета не вимагають розташування віджетів за допомогою Qt Designer. Замість цього виберіть контекстне меню одного з варіантів "Вирівнювання з горизонталі", "Вирівняти в таблиці" та ін. ".</p>
         <p>Кожен віджет Qt має рекомендований розмір, відомий як sizeHint (). Менеджер макета намагатиметься змінити розмір віджету, щоб відповідати розміру підказки. У деяких випадках немає необхідності мати інший розмір. Наприклад, висота QLineEdit завжди є фіксованим значенням залежно від розміру шрифту та стилю. В інших випадках, можливо, вам знадобиться змінити розмір, наприклад, ширину QLineEdit або віджетів перегляду ширини та висоти. Тут починають грати обмеження розміру віджета - обмеження мінімального розміру та максимального розміру. Це властивості, які ви можете встановити в редакторі властивостей. Наприклад, щоб перевизначити розмір по умолчанию sizeHint (), просто встановіть мінімальний розмір і максимальний розмір до одного значення. Крім того, щоб використовувати поточний розмір як значення обмеження розміру, виберіть контекстне меню віджета один з параметрів обмеження розміру. Макет потім забезпечить, щоб ці обмеження були виконані. Щоб контролювати розмір віджетів за допомогою коду, ви можете повторно виконати розмір () у вашому коді.</p>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-                <script>
-                    var url = location.href;
-                    var comm = document.getElementsByClassName('fb-comments')[0];
-                    comm.setAttribute('data-href',url);
-                </script>
-            </div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+       

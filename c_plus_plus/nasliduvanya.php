@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Наслідування</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Спадкування класів в С++</h1></center>
         <br>
         <p>Спадкування класів – дуже потужна можливість в об'єктно орієнтованому програмуванні. Воно дозволяє створювати похідні класи (класи спадкоємці), взявши за основу всі методи і елементи базового класу (класу батька). Таким чином економиться маса часу на написання і налагодження коду нової програми. Об'єкти похідного класу вільно можуть використовувати все, що створено і налагоджено в базовому класі. При цьому, ми можемо в похідний клас, дописати необхідний код для удосконалення програми: додати нові елементи, методи і т.д.. Базовий клас залишиться недоторканим. Цю тему цілком можливо освоїти новачкам. Необхідно тільки познайомитися з синтаксисом і деякими особливостями. Нижче наведено простий код програми, який ми детально розберемо під лістингом. У цій програмі створені два класи: базовий – FirstClass і похідний від нього SecondClass.</p>
@@ -143,17 +123,4 @@
         <p>Ця запис вказує компілятору – якщо значення value не дорівнює нулю – викликати метод show_value() класу FirstClass. А він у свою чергу, відобразить це значення на екрані.</p>
         <p>Думаю для першого знайомства з успадкуванням класів цього достатньо. Це безперечно класна можливість мови С . Вона допомагає економити масу часу на написання і налагодження коду з нуля. Замість цього ми можемо використовувати вже готовий і налагоджений код і підлаштовувати його під нові завдання, які поставлені перед нами. При цьому наша нова програма буде займати набагато менше рядків, що значно покращить її читабельність.</p>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-            <script>
-                var url = location.href;
-                var comm = document.getElementsByClassName('fb-comments')[0];
-                comm.setAttribute('data-href',url);
-            </script>
-            </div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+       

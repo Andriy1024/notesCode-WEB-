@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Qt Creator</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../style/reset.css">
-	<link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-	<script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-	<link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-	<meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Qt Creator</h1></center>
         <br>
         <p>Qt Creator — інтегроване середовище розробки, призначене для створення крос-платформових застосунків з використанням бібліотеки Qt. Підтримується розробка як класичних програм мовою C++, так і використання мови QML, для визначення сценаріїв, в якій використовується JavaScript, а структура і параметри елементів інтерфейсу задаються CSS-подібними блоками. Qt Creator може використовувати GCC або Microsoft VC++ як компілятор і GDB як зневаджувач. Для Windows версій бібліотека комплектується компілятором, заголовними і об'єктними файлами MinGW.</p>
@@ -38,17 +18,4 @@
         <p>10. Підтримка розробки на мовах C/C++, JavaScript, QML</p>
         <p>11. QML-дизайнер</p>
         <p>12. Можливість розробки під Symbian і Maemo зі зневадженням в симуляторі або на пристрої</p>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-                <script>
-                    var url = location.href;
-                    var comm = document.getElementsByClassName('fb-comments')[0];
-                    comm.setAttribute('data-href',url);
-                </script>
-            </div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+        

@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Конструктор і деструктор</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Конструктор і деструктор класів в  С++</h1></center>
         <br>
         <p>Почнемо з того, що коли ми створюємо елементи (змінні) класу, ми не можемо присвоїти їм значення в самому визначенні класу. Компілятор видасть помилку. Тому нам необхідно створювати окремий метод (так звану set-функцію) класу, за допомогою якого і буде відбуватися ініціалізація елементів. При цьому, якщо необхідно створити, наприклад, 20 об'єктів класу, то щоб ініціалізувати елементи потрібно 20 раз викликати set-функції.</p>
@@ -116,17 +96,3 @@
         <p>Хочеться ще додати, що, як і звичайних функцій, ми можемо передавати конструктору параметри. Через параметри, конструктору можна передавати будь-які дані, які будуть необхідні при ініціалізації об'єктів класу.</p>
         <p>Деструкція спрацьовує в той момент, коли завершується робота програми і знищуються всі дані.</p>
 <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-<div class="comments">
-<div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-<script>
-var url = location.href;
-var comm = document.getElementsByClassName('fb-comments')[0];
-comm.setAttribute('data-href',url);
-</script>
-</div>   
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>

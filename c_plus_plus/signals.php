@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Сигнали и слоти</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Сигнали и слоти</h1></center>
         <br>
         <p>При програмуванні графічного інтерфейсу користувача ми часто хотіли б повідомити одну елементи про зміну інших елементів керування. Більш загальним можна сказати, що ми хочемо забезпечити зв'язок між об'єктами будь-яких видів. Наприклад, якщо користувач натискає кнопку Закрити ми, швидше за все, хотім, щоб була викликана функція вікна close ().</p>
@@ -120,17 +100,4 @@
         <p>Те ж саме відбувається, коли система викликає слот або побічно викликаються більше десятка функцій. На i586-500 ви можете генерувати близько 2,000,000 сигналів, пов'язаних з одним слотом, в секунду, або близько 1,200,000 сигналів, пов'язаних з двома слотами, в секунду. Простий і гнучкий механізм сигналів та слотів є хорошою оболонкою для внутрішньої реалізації, яку користувачі навіть не будуть помічати.</p>
         <p>Зверніть увагу на те, що інші бібліотеки, що визначають змінні з ім'ям signals або slots, можуть викликати попередження і помилки при компіляції з додатком, створеним на основі Qt. Вирішити цю проблему може директива препроцесора #undef.</p>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-            <script>
-                var url = location.href;
-                var comm = document.getElementsByClassName('fb-comments')[0];
-                comm.setAttribute('data-href',url);
-            </script>
-        </div> 
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+        

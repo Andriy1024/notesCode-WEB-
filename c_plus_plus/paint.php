@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Cистема малювання</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="../style/reset.css">
-	<link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-	<script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-	<script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-	<link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-	<meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Cистема малювання</h1></center>
         <br>
         <p>Система малювання Qt дозволяє малювати на екрані і друкуючих пристроях використовуючи один і той же API, і заснована, в основному, на класах QPainter, QPaintDevice і QPaintEngine.</p>
@@ -105,17 +85,4 @@
         <p>Клас QIcon надає масштабовані піктограми в різних режимах і станах.</p>
         <p>QIcon може сформувати растрові зображення, що відображають стан піктограми, режим і розмір. Ці растрові зображення формуються з набору растрових зображень, які робляться доступними для піктограми, і використовуються віджетами Qt для показу піктограми, що представляє окрему дію.</p>
         <p>Візуалізація об'єкта QIcon обробляється класом QIconEngine. Кожна піктограма має механізм піктограм, який відповідає за отрисовку піктограми з необхідним розміром, режимом і станом.</p>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-                <script>
-                    var url = location.href;
-                    var comm = document.getElementsByClassName('fb-comments')[0];
-                    comm.setAttribute('data-href',url);
-                </script>
-            </div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+       

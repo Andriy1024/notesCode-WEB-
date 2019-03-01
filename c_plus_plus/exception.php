@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>exception</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>exception в С++</h1></center>
         <br>
         <p>Всім нам інтуїтивно зрозуміло що таке виключення. Це якась дія, яка набирає чинності, при настанні нестандартної ситуації. Говорячи про про винятки в С ++, розглянемо одну з таких нестандартних ситуацій - поділ на 0. Уявіть, що ми працюємо в програмі, де вручну вносимо багато числових даних. Далі, в результаті якихось розрахунків програми, значення однієї із змінних стане рівним 0. А в наступному рядку коду це значення виступає дільником. Звичайно, ця дія призведе до неминучого закриття програми і виходу з неї. І ви можете собі уявити свій стан, коли півгодини вводите дані, працюючи в цій програмі, і на якомусь етапі вона просто перестає працювати і закривається, а всі дані пропадають.</p>
@@ -205,17 +185,4 @@
         <p>3. catch-блок - вловлює блок, зловить то, що визначив throw і виконає свій код. Цей блок повинен розташовуватися безпосередньо під try-блоком. Ніякої код не повинен їх розділяти.</p>
         <p>4. якщо в try-блоці винятку не генерувалося, catch-блок не спрацює. Програма його обійде.</p>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-            <script>
-                var url = location.href;
-                var comm = document.getElementsByClassName('fb-comments')[0];
-                comm.setAttribute('data-href',url);
-            </script>
-            </div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+       

@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Класи в С++</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Класи в С++</h1></center>
         <br>
         <p>Класи і об'єкти в С є основними концепціями об'єктно-орієнтованого програмування – ООП. Об'єктно-орієнтоване програмування – розширення структурного програмування, в якому основними концепціями є поняття класів і об'єктів. Основна відмінність мови програмування С від С полягає в тому, що в С немає класів, а отже мова С не підтримує ООП, на відміну від С .</p>
@@ -162,17 +142,4 @@
         38. }</code></pre>
         <p>У визначенні класу з'явився новий специфікатор доступу private, рядок 6. Даний специфікатор доступу обмежує доступ до змінних, які оголошені після нього і до початку специфікатора доступу public, рядки 6 – 7. Таким чином до змінних day, month, year, можуть отримати доступ тільки методи класу. Функції не належать класу, не можуть звертатися до цих змінним. Елементи даних або методи класу, оголошені після специфікатора доступу private, але до початку наступного специфікатора доступу називаються закритими елементами даних і закритими методами класу. Дотримуючись принципу найменших привілеїв і принципом хорошого програмування, доцільно оголошувати елементи даних після специфікатора доступу private, а методи класу – після специфікатора доступу public. Тоді, для маніпулювання елементами даних, оголошуються спеціальні функції – get і set. В клас CppStudio ми додали два методи setDate() і getDate(), детально розглянемо кожен метод. Метод setDate() визначений з 13 по 18 рядки. Як вже раніше згадувалося, набір – функції инициализируют елементи даних, тому метод setDate() виконує саме таку функцію. Тобто метод setDate() инициализирует змінні day, month, year. Щоб переглянути, значення в закритих елементах даних оголошена функція getDate(), яка повертає значення з змінних day, month, year у вигляді дати.На цьому визначення класу закінчено, в основний(), як і завжди, створюємо об'єкт класу, і через об'єкт викликаємо його методи,рядки 33 – 35. Якби елементи даних були оголошені після специфікатора public ми б змогли до них звернутися точно також, як і до методів класу. </p>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-             <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-             <script>
-                     var url = location.href;
-                     var comm = document.getElementsByClassName('fb-comments')[0];
-                     comm.setAttribute('data-href',url);
-             </script>
-        </div>   
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+        

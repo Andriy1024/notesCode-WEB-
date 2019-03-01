@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>QMainWindow</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Клас головного вікна QMainWindow</h1></center>
         <br>
         <p>QMainWindow - це дуже важливий клас, який реалізує головне вікно, що містить в собі типові віджети, необхідні більшості додатків, такі як меню, секції для панелей інструментів, робочу область, рядка стану. В цьому класі зовнішній вигляд вже підготовлений і його віджети не потребують додаткового розміщення, так як вони вже знаходяться в потрібних місцях.</p>
@@ -38,17 +18,4 @@
         <p>Щоб отримати покажчик на робочу область, слід викликати метод QMainWindow :: centralWidget (), який поверне покажчик на QWidget. Для установки віджета робочої області буде потрібно викликати метод QMainWindows :: setCentralWidget () і передати в нього покажчик на цей віджет.</p>
         <p>Метод QMainWindow :: statusBar () повертає покажчик на віджет рядки стану. Кнопка зміни розмірів вікна, розташована в нижньому правому куті рядка стану, є всього лише підказкою для користувача, що повідомляє про те, що розміри головного вікна можуть бути змінені. Цей віджет реалізований в класі QSizeGrip. Отримати покажчик на нього з класу головного вікна (QMainWindow) неможливо, так як він знаходиться під контролем віджета рядки стану.</p>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-            <script>
-                var url = location.href;
-                var comm = document.getElementsByClassName('fb-comments')[0];
-                comm.setAttribute('data-href',url);
-            </script>
-            </div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+       

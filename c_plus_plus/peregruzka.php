@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Перегрузка операторів</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/reset.css">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <link rel="stylesheet" type="text/css" href="../style/vs2015.css">
-    <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="../js/jquery.shuffleLetters.js"></script>
-    <script type="text/javascript" src="../js/script.js" defer></script>
-    <script type="text/javascript" src="../js/highlight.pack.js"></script>
-    <link href="../img/ICON.ico" rel="shortcut icon" type="image/x-icon">
-    <meta charset="utf-8">
-</head>
-<body>
-<?php require "top.php";?>
-<main>
-	<div class="manual_wrapper">
-		<?php require "sidebar.php";?>
-        <div class="content_of_manual">
+
         <center><h1>Перегрузка операторів в С++</h1></center>
         <br>
         <p>Іноді хочеться проявити творчість і полегшити програмний код для себе і для інших. Для себе написання, для інших розуміння. Скажімо, якщо в нашій програмі часто зустрічається функція додавання одного рядка в кінець інший, звичайно, можна це реалізувати різними способами. А якщо ми, в якійсь ділянці нашого коду, напишемо, наприклад так:</p>
@@ -147,17 +127,4 @@
         <p>Не можна не відзначити, що багато програмістів негативно ставляться до перевантаження операторів. Сама можливість перевантаження операторів надана для полегшення розуміння і читання коду програм. У той же час, вона навпаки може стати і причиною ускладнення вашої програми і багатьом програмістам буде важко її зрозуміти. Пам'ятайте про «золоту середину» і використовуйте перевантаження тільки тоді, коли вона реально принесе користь вам та іншим. Цілком можна обійтися і без перевантаження операторів. Але це не означає, що можна проігнорувати цю тему. У ній слід розібратися хоча б тому, що вам колись доведеться зіткнутися з перевантаженням в чужому коді і ви зможете легко розібратися що до чого.</p>
         <p>Ось ми дуже коротко ознайомилися з перевантаженням операторів в С ++. Побачили, так би мовити, вершину айсберга. А вашим домашнім завданням (ДА-ДА - домашнє завдання!) Буде доопрацювати програму, додавши в неї перевантаження оператора для видалення рядка. Який оператор перевантажувати виберіть самі. Або запропонуйте свій варіант апгрейда коду, додавши в нього те, що вважаєте за потрібне і цікавим. Ваші «праці» можете додавати в коментарі до цієї статті. Нам цікаво буде подивитися ваші варіанти вирішення. Успіхів!</p>
         <script type="text/javascript">hljs.initHighlightingOnLoad();</script>
-        <div class="comments">
-            <div class="fb-comments"  data-width="100%" data-numposts="5"></div>
-            <script>
-            var url = location.href;
-                    var comm = document.getElementsByClassName('fb-comments')[0];
-                comm.setAttribute('data-href',url);
-            </script>
-            </div>
-        </div>
-    </div>
-</main>
-<?php require "bottom.php";?>
-</body>
-</html>
+       
