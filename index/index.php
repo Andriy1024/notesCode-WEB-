@@ -90,8 +90,8 @@
 				  <p>HTML/CSS</p>
 				  <p>JavaScript/jQuery</p>	
 				  <p>C++/Qt</p>
-				  <p>PHP</p>
-				  <p>MySQL</p>
+				  <p>PHP/MySQL</p>
+				  <p>C#/T-Sql/Entity Framework/ASP.NET MVC</p>
 				  <p>Email: andriyzybyk@gmail.com</p>	
 				  <p>Сторінка у   <a target="_blank" href="https://www.facebook.com/zubykandriy">facebook</a></p>
 				  <a class="github-button" href="https://github.com/Andriy1024" aria-label="Follow @Andriy1024 on GitHub">Follow @Andriy1024</a>
